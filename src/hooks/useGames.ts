@@ -12,6 +12,7 @@ export interface Game {
     background_image: string;
     parent_platforms: { platform: Platform }[] //object with property platform with type Platform
     metacritic: number;
+    rating_top: number;
 }
   
 // Shape of response object -> find from the API documentation
