@@ -13,7 +13,8 @@ export interface Game {
     parent_platforms: { platform: Platform }[] //object with property platform with type Platform
     metacritic: number;
 }
-  // Shape of response object -> find from the API documentation
+  
+// Shape of response object -> find from the API documentation
 interface FetchGamesResponse {
     count: number;
     results: Game[];
